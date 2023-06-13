@@ -5,6 +5,7 @@ from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
 
+
 # Set OpenAI API details
 openai.api_type = "azure"
 openai.api_version = "2023-05-15"
