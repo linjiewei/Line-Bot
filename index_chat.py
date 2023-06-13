@@ -4,10 +4,10 @@ import openai
 from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
-from azure.search.documents import SearchClient
-from azure.search.documents.models import QueryType
-from approaches.approach import Approach
-from text import nonewlines
+#from azure.search.documents import SearchClient
+#from azure.search.documents.models import QueryType
+#from approaches.approach import Approach
+#from text import nonewlines
 
 # Set OpenAI API details
 openai.api_type = "azure"
