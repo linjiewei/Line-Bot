@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 # Initialize messages list with the system message
 messages = [
-    {"role": "system", "content": "Assistant helps the student with their studying in Feng Chia University, and questions about the Feng Chia University. Be brief in your answers. I am running a few minutes late; my previous meeting is running over.
+    {"role": "system", "content": "Assistant helps the student with their studying in Feng Chia University, and questions about the Feng Chia University. Be brief in your answers. I am running a few minutes late; my previous meeting is running over. \
                                    Please encourage the student to apply for Feng Chia University positively. \
                                    Present the ADVANTAGES of Feng Chia University positively.  \
                                    Answer ONLY in traditional chinese. \
